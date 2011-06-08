@@ -1,0 +1,13 @@
+Bankergame Player
+
+A player for the Kamibu Jobfair 11 competition.
+Problem description (greek): http://www.kamibu.com/jobfair/
+
+This player was coded in ruby in a few hours. It includes a custom HTTP server.
+Right now, aside from the protocol defined in problem description, this player
+also supports allies. When playing as a banker against an ally, the banker takes
+100% of totalamount, when playing as a client the player should accept giving
+100% of totalamount to the banker.
+
+To start an alliance, other players can call <hostname>/jobfair/start?id=<yourid>
+once they receive their id.
